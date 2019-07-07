@@ -1,0 +1,45 @@
+$rem: 469/16rem;
+header{
+    width: 100%;
+    color: #fff;
+    line-height: 55/$rem;
+    padding: 0 20/$rem;
+    font-size: 22/$rem;
+    background: linear-gradient(90deg,#00c9e2 3%,#00e4f5 92%); 
+    >i{
+        float: left;
+        font-size: 25/$rem;
+    }
+    h1{
+        font-weight: 700;
+        text-align: center;
+        i{
+            margin: 0 10/$rem;
+        }    
+    }
+    .topInput{
+        display: inline-block;
+        position: relative;
+        input{
+            width: 392/$rem;
+            height: 45/$rem;
+            border: 0;
+            padding: 0 40/$rem;
+            font-size: 18/$rem;
+            margin-left: 15/$rem;
+            border-radius: 8/$rem;
+        }
+        i{
+            color: #ccc;
+            position: absolute;
+            &:nth-of-type(1){
+                top: 2/$rem;
+                left: 25/$rem;
+            }
+            &:nth-of-type(2){
+                top: 2/$rem;
+                right: 25/$rem;
+            }
+        }
+    }
+}

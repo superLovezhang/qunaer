@@ -1,0 +1,46 @@
+$rem: 469/16rem;
+
+.train-data-wrap{
+    font-size: 18/$rem;
+    .train-week{
+        width: 100%;
+        line-height: 31/$rem;
+        display: flex;
+        span{
+            flex: 1;
+            text-align: center;
+            font-size: 15/$rem;
+        }
+        .special-week{
+            color: #00afc7;
+        }
+    }
+    .train-month{
+        width: 100%;
+        height: 377/$rem;
+        h5{
+            line-height: 38/$rem;
+            text-align: center;
+            background-color: #f7f7f7;
+        }
+        .month-detail{
+            height: 340/$rem;
+            display: flex;
+            flex-wrap: wrap;
+            .month-item{
+                width: 14.2857%;
+                height: 20%;
+                line-height: 68/$rem;
+                text-align: center;
+            }
+            .past{
+                color: #bdbdbd;
+            }
+            .tody{
+                color: #fff;
+                border-radius: 8/$rem;
+                background-color: #00c9e2;
+            }
+        }
+    }
+}

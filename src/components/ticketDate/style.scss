@@ -1,0 +1,21 @@
+$rem: 469/16rem;
+
+.ticket-date{
+    width: 100%;
+    height: 56/$rem;
+    color: #3ccece;
+    display: flex;
+    padding: 0 18/$rem;
+    font-size: 20/$rem;
+    align-items: center;
+    background-color: #f8f8f8;
+    span{
+        flex: 1;
+        &:nth-of-type(2){
+            text-align: center;
+        }
+        &:nth-of-type(3){
+            text-align: right;
+        }
+    }
+}

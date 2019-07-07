@@ -1,0 +1,48 @@
+$rem: 469/16rem;
+
+.ticket-content{
+    width: 100%;
+    .ticket-info{
+        padding: 0 18/$rem;
+        .ticket-item{
+            a{
+                width: 100%;
+                height: 87/$rem;
+                font-size: 19/$rem;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                border-bottom: 1/$rem solid #ccc;
+                span{
+                    width: 25%;
+                    color: #333;
+                    height: 25/$rem;
+                    i{
+                        width: 22/$rem;
+                        color: #49d1d1;
+                        line-height: 22/$rem;
+                        text-align: center;
+                        font-style: normal;
+                        font-size: 15/$rem;
+                        border-radius: 50%;
+                        border: 1px solid #49d1d1;
+                        display: inline-block;
+                    }
+                    &:nth-of-type(4){
+                        color: #ff9900;
+                        text-align: right;
+                    }
+                    &:nth-of-type(n+5){
+                        color: #666666;
+                        font-size: 18/$rem;
+                    }
+                    &:nth-of-type(8){
+                        color: #666666;
+                        font-size: 18/$rem;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}

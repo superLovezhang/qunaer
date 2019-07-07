@@ -1,0 +1,58 @@
+$rem: 469/16rem;
+
+.city-wrap{
+    width: 100%;
+    .city-choose{
+        height: 53/$rem;
+        display: flex;
+        span{
+            flex: 1;
+            position: relative;
+            font-size: 22/$rem;
+            line-height: 53/$rem;
+            text-align: center;
+        }
+        .active{
+            font-weight: 700;
+        }
+        .active::after{
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            width: 110/$rem;
+            height: 5/$rem;
+            background-color: #00c9e2;
+        }
+    }
+    .city-item{
+        padding: 0 19/$rem;
+        background-color: #f5f5f5;
+        .location-city{
+            // height: 127/$rem;
+            .city-header{
+                color: #616161;
+                font-weight: 700;
+                font-size: 18/$rem;
+                line-height: 53/$rem;
+                margin-left: 20/$rem;
+            }
+            .detail-city{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                span{
+                    width: 118/$rem;
+                    line-height: 47/$rem;
+                    font-size: 20/$rem;
+                    text-align: center;
+                    margin-right: 15/$rem;
+                    margin-bottom: 15/$rem;
+                    border-radius: 8/$rem;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}

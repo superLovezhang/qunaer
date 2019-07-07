@@ -1,0 +1,229 @@
+$rem: 469/16rem;
+
+.pay-wrap{
+    width: 100%;
+    margin-bottom: 75/$rem;
+    background-color: #f5f5f5;
+    .pay-header{
+        position: fixed;
+        top: 0;
+    }
+    .pay-tricket-info{
+        width: 100%;
+        font-size: 18/$rem;
+        height: 56/$rem;
+        padding: 0 20/$rem;
+        display: flex;
+        margin-bottom: 13/$rem;
+        align-items: center;
+        background-color: #fff;
+        p:nth-of-type(1) {
+            width: 145/$rem;
+        }
+        span{
+            font-size: 24/$rem;
+            color: #ff8300;
+        }
+    }
+    .login-account{
+        width: 100%;
+        height: 72/$rem;
+        font-size: 18/$rem;
+        display: flex;
+        padding: 0 20/$rem;
+        align-items: center;
+        margin-bottom: 13/$rem;
+        justify-content: space-between;
+        background-color: #fff;
+        .account{
+            p{
+                color: #333;
+                &:nth-of-type(2) {
+                    color: #bababa;
+                    font-size: 15/$rem;
+                }
+            }
+            i{
+                text-align: right;
+            }
+        }
+    }
+    .person-info{
+        width: 100%;
+        // height: 170/$rem;
+        font-size: 18/$rem;
+        background-color: #fff;
+        .input-user-info{
+            height: 110/$rem;
+            position: relative;
+            padding: 0 20/$rem 0 57/$rem;
+            >i{
+                color: red;
+                left: 20/$rem;
+                top: 43/$rem;
+                font-size: 25/$rem;
+                position: absolute;
+            }
+            .user-name{
+                height: 55/$rem;;
+                display: flex;
+                position: relative;
+                border-bottom: 1px solid #f4f6f6;
+                align-items: center;
+                >span{
+                    float: left;
+                    width: 77/$rem;
+                    font-size: 16/$rem;
+                    line-height: 32/$rem;
+                    color: #1ba9ba;
+                    border-right: 1/$rem solid #f4f6f6;
+                    i{
+                        font-size: 16/$rem;
+                        margin-left: 5/$rem;
+                    }
+                }
+                input{
+                    float: left;
+                    width: 237/$rem;
+                    height: 100%;
+                    padding: 0 12/$rem;
+                    border: 0;
+                    background-color: #fff;
+                }
+                p{
+                    font-size: 16/$rem;
+                    position: absolute;
+                    right: 12/$rem;
+                    top: 12/$rem;
+                    overflow: hidden;
+                    height: 25/$rem;
+                    // height: 80/$rem;
+                    transition: all .3s;
+                    background-color: #fff;
+                    span:nth-of-type(2) {
+                        display: block;
+                        margin-top: 10/$rem;
+                    }
+                }
+            }
+        }
+        .add-person{
+            display: flex;
+            width: 100%;
+            height: 61/$rem;
+            align-items: center;
+            p{
+                flex: 1;
+                color: #1ba9ba;
+                font-size: 18/$rem;
+                line-height: 35/$rem;
+                text-align: center;
+                &:nth-of-type(1) {
+                    border-right: 1/$rem solid #f4f6f6;
+                }
+            }
+        }
+    }
+    .user-tel{
+        width: 469/$rem;
+        height: 55/$rem;
+        font-size: 17/$rem;
+        padding: 0 20/$rem;
+        margin: 13/$rem 0;
+        position: relative;
+        background-color: #fff;
+        span{
+            margin-right: 50/$rem;
+        }
+        input{
+            width: 300/$rem;
+            height: 100%;
+            border: 0;
+        }
+        i{
+            position: absolute;
+            right: 10/$rem;
+            top: 15/$rem;
+        }
+    }
+    .choose-seat{
+        width: 469/$rem;
+        height: 127/$rem;
+        font-size: 17/$rem;
+        padding: 0 20/$rem;
+        background-color: #fff;
+        .online-choose{
+            line-height: 59/$rem;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1/$rem solid #dcdfe0;
+        }
+        .choose-position{
+            height: 69/$rem;
+            display: flex;
+            align-items: center;
+            .seat-position{
+                flex: 1;
+                display: flex;
+                color: #9e9e9e;
+                justify-content: center;
+                p{
+                    position: relative;
+                    span{
+                        color: #fff;
+                        left: 8/$rem;
+                        position: absolute;
+                    }
+                    i{
+                        margin-right: 45/$rem;
+                        font-size: 28/$rem;
+                    }
+                }
+            }
+            .specail-seat{
+                >span{
+                    margin-right: 45/$rem;
+                }
+                i{
+                    margin: 0;
+                }
+            }
+        } 
+    }
+    .warning-tip{
+        line-height: 35/$rem;
+        color: #ff8b16;
+        font-size: 15/$rem;
+        padding: 0 20/$rem;
+        margin-bottom: 13/$rem;
+        background-color: #fff3df;
+    }
+    .pay-footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 75/$rem;
+        font-size: 20/$rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20/$rem;
+        background-color: #fff;
+        .ticket-desc{
+            span{
+                font-size: 14/$rem;
+            }
+        }
+        .pay-btn{
+            width: 337/$rem;
+            height: 55/$rem;
+            color: #fff;
+            text-align: center;
+            border-radius: 5/$rem;
+            background-color: #ff8300;
+            span{
+                font-size: 14/$rem;
+            }
+        }
+    }
+}
